@@ -31,10 +31,6 @@ node {
     {
       sh 'make -j8'
     }
-    dir('samples/linux/jobs_sample')
-    {
-      sh 'make -j8'
-    }
     echo 'Done.'
 
     stage 'Run Tests'
