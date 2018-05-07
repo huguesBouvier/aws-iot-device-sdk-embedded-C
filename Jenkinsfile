@@ -20,10 +20,6 @@ node {
     {
       sh 'make -j8'
     }
-    dir('samples/linux/subscribe_publish_cpp_sample')
-    {
-      sh 'make -j8'
-    }
     dir('samples/linux/subscribe_publish_library_sample')
     {
       sh 'make -j8'
